@@ -1399,6 +1399,10 @@ Modules
 	        background-size: cover;
 }
 
+footer.module {
+	height: 0;
+}
+
 .module-small {
 	padding: 70px 0;
 }
