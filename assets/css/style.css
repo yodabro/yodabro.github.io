@@ -749,6 +749,12 @@ Gallery box
 	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
+@media (max-width: 767px) {
+	.gallery-box .gallery:after, .gallery-box .gallery-link:after {
+		top: 0;
+		height: 100%;
+	}
+}
 .gallery-box .gallery-overlay {
 	width: calc(100% - 30px);
 	position: absolute;
