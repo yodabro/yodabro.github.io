@@ -739,10 +739,10 @@ Gallery box
 	background: rgba(255, 255, 255, 0.3);
 	position: absolute;
 	content: "";
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
+	left: 15px;
+	top: 35px;
+	height: calc(100% - 70px);
+	width: calc(100% - 30px);
 	opacity: 0;
 	-webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 	   -moz-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
