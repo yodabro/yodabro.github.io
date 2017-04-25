@@ -749,8 +749,16 @@ Gallery box
 	     -o-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 	        transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
-
-.gallery-box:hover .gallery:after {
+.gallery-box .gallery-overlay {
+	width: calc(100% - 30px);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	opacity: 0;
+	color: white;
+	transition: opacity 0.2s ease;
+}
+.gallery-box:hover .gallery-overlay, .gallery-box:hover .gallery:after {
 	opacity: 1;
 }
 
