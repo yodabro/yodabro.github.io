@@ -730,12 +730,12 @@ Gallery box
 	font-size: 12px;
 }
 
-.gallery-box .gallery {
+.gallery-box .gallery, .gallery-box .gallery-link {
 	display: block;
 	margin: 20px 0 0;
 }
 
-.gallery-box .gallery:after {
+.gallery-box .gallery:after, .gallery-box .gallery-link:after {
 	background: rgba(255, 255, 255, 0.3);
 	position: absolute;
 	content: "";
@@ -758,7 +758,7 @@ Gallery box
 	color: white;
 	transition: opacity 0.2s ease;
 }
-.gallery-box:hover .gallery-overlay, .gallery-box:hover .gallery:after {
+.gallery-box:hover .gallery-overlay, .gallery-box:hover .gallery:after, .gallery-box:hover .gallery-link:after {
 	opacity: 1;
 }
 
