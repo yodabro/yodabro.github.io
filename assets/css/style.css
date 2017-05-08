@@ -2372,3 +2372,13 @@ Multi-columns-row
 	height: 30.62vw;
 	overflow: hidden;
 }
+.grid-item {
+	width: 30%;
+	padding-bottom: 10px;
+}
+.offset-xs-1 {
+	left: 8.33333333%;
+}
+.masonry {
+	margin-top: 100px;
+}
