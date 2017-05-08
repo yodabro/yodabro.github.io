@@ -368,7 +368,7 @@
 		<!-- /PORTFOLIO -->
 
 		<!-- FOOTER -->
-		<footer class="module bg-light">
+		<footer class="module">
 
 			<div class="container">
 

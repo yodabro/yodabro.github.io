@@ -18,7 +18,10 @@ body {
 	overflow-x: hidden;
 	-ms-overflow-style: scrollbar;
 }
-
+.mbYTP_wrapper {
+	width: 100%;
+	height: 100%;
+}
 img {
 	max-width: 100%;
 	height: auto;
@@ -1206,7 +1209,10 @@ Navigation
 }
 
 .navbar-light .show-overlay .icon-bar {
-	background: #111;
+	background: white;
+}
+.navbar-fixed-top:not(.navbar-transparent).navbar-light .show-overlay .icon-bar {
+	background: black;
 }
 
 .navbar-light .show-overlay:hover .icon-bar {
@@ -2069,7 +2075,13 @@ Reset bootstrap navigation styles for small screens
 .navbar-custom .navbar-nav > li > a {
 	padding-top: 15px;
 	padding-bottom: 15px;
+	font-weight: bold;
+	color: white;
 }
+.navbar-fixed-top.navbar-custom:not(.navbar-transparent) .navbar-nav > li > a {
+	color: black;
+}
+
 
 /* -------------------------------------------------------------------
 Responsive Media Querries
