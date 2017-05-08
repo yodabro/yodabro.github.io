@@ -2379,6 +2379,6 @@ Multi-columns-row
 .offset-xs-1 {
 	left: 8.33333333%;
 }
-.masonry {
+.masonry, .events {
 	margin-top: 100px;
 }
