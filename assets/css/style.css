@@ -2367,3 +2367,8 @@ Multi-columns-row
 #hero.module-video {
 	max-height: 56.25vw;
 }
+.gallery-link {
+	width: 30.62vw;
+	height: 30.62vw;
+	overflow: hidden;
+}
